@@ -1,9 +1,22 @@
 .page-header {
-    padding: 20px;
-    display: flex;
-    position: fixed;
-    color: white;
-    z-index: 10;
-    justify-content: space-between;
-    width: 100%;
+  padding: 20px;
+  display: flex;
+  position: fixed;
+  color: white;
+  z-index: 10;
+  justify-content: space-between;
+  width: 100%;
+  background: black;
+}
+
+.page-header__nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.jumbo-slider {
+  height: 100vh;
+  width: 100%;
+  background: #1b1b1b;
 }
