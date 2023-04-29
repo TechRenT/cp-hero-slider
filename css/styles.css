@@ -48,6 +48,31 @@
   opacity: .5;
 }
 
+.jumbo-slider__info {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.jumbo-slider__slide-number {
+  font-size: 20rem;
+  color: #03fc7f;
+  font-weight: 700;
+  transform: translate3d(0, 100px, 0);
+  opacity: 0;
+  transition: transform .4s ease-in-out 1s, opacity .4s ease-in-out 1s;
+  margin-bottom: 2rem;
+}
+
+.jumbo-slider__slide--active .jumbo-slider__slide-number {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
 .jumbo-slider__nav {
   display: flex;
   position: absolute;
